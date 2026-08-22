@@ -12,4 +12,4 @@ else if(nota  >= 5)
 else
 {
     Console.Write("Reprovado...");
-}
+} 
