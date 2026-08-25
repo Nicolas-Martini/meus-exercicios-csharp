@@ -5,7 +5,7 @@ int opcao = 0;
 
 while (opcao != 4)
 {
-    Console.WriteLine("\nQual opção deseja:");
+    Console.WriteLine("\nQual opção deseja:"); 
     Console.WriteLine("1 - Ver saldo");
     Console.WriteLine("2 - Depositar");
     Console.WriteLine("3 - Sacar");
