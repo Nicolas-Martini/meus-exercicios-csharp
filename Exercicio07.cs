@@ -7,7 +7,7 @@ if (!double.TryParse(Console.ReadLine(), NumberStyles.Any, CultureInfo.Invariant
 {
     Console.WriteLine("Altura inválida. Execute o programa novamente.");
     return;
-}
+} 
 
 Console.Write("Qual o seu peso em kg (ex: 70.5): ");
 if (!double.TryParse(Console.ReadLine(), NumberStyles.Any, CultureInfo.InvariantCulture, out double peso) || peso <= 0)
