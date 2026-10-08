@@ -1,4 +1,4 @@
-﻿using ConsoleApp1;
+using ConsoleApp1;
 using System;
 using System.Globalization;
 
@@ -22,15 +22,12 @@ namespace ConsoleApp2Class
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            double areaX = x.Area();
 
-            double p = (x.A + x.B + x.C) / 2.0;
-            double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C));
+            double areaY = y.Area();
 
-            p = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
-
-            Console.WriteLine($"{areaX:F4}");
-            Console.WriteLine($"{areaY:F4}");
+            Console.WriteLine($"Área do triângulo X: {areaX.ToString("F4", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Área do triângulo Y: {areaY.ToString("F4", CultureInfo.InvariantCulture)}");
 
 
         }
