@@ -2,7 +2,7 @@
 using System;
 using System.Globalization;
 
-namespace ConsoleApp2Class
+namespace ConsoleApp1
 {
     internal class Program
     {
