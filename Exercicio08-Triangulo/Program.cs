@@ -1,8 +1,7 @@
-using ConsoleApp1;
 using System;
 using System.Globalization;
 
-namespace ConsoleApp2Class
+namespace Exercicio08Triangulo
 {
     internal class Program
     {
