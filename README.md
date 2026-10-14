@@ -1,10 +1,7 @@
 # meus-exercicios-csharp
-Meus primeiros exercícios em C#
 
-01 - Hello World
-02 - Tipos de Variáveis
-03 - If / Else
-04 - Switch
-05 - While e Validações
-06 - For / Tabuada
-07 - Métodos / Calculadora de IMC
+Repositório criado para armazenar meus exercícios e acompanhar minha evolução nos estudos de C#.
+
+Atualmente, estou aprendendo lógica de programação, classes, objetos, métodos e outros conceitos da linguagem.
+
+Este repositório será atualizado conforme eu avançar nos estudos.
