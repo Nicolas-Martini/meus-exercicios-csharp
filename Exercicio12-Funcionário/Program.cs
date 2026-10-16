@@ -22,9 +22,9 @@ namespace Exercicio
 
 
             Console.Write("Digite a porcentagem para aumentar o salário: ");
+            
             double porcent = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             func.AumentarSalario(porcent);
-
 
             Console.WriteLine($"Dados Atualizados {func}");
         }
